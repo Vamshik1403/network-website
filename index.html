@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+
+  <!--=============== REMIXICONS ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>Electronics-Website</title>
+</head>
+
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="" class="nav__logo">JAINIFY NET-TECH SOLUTIONS</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li>
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#info" class="nav__link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#work" class="nav__link">Products</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="nav__link">Contact Us</a>
+          </li>
+        </ul>
+
+        <!-- closebutton -->
+
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-large-line"></i>
+        </div>
+      </div>
+
+      <!-- toggle button -->
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-menu-line"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <!-- <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="img-container">
+         <img src="./assets/img/human3.png">
+         </div>
+
+          <div class="home__data">
+            <h1 class="home__name">
+              Mobile<br />
+              Signal Booster
+            </h1>
+            <h3 class="home__profession">Installation Service</h3>
+          </div>
+          <a href="#work" class="home__scroll">
+            <div class="home__scroll-box">
+              <i class="ri-arrow-down-line"></i>
+            </div>
+
+            <span class="home__scroll-text">About Us</span>
+          </a>
+        </div>
+
+      </section> -->
+
+
+
+
+
+
+    <section class="home section" id="home">
+      <div class="carousel">
+        <div class="carousel-track">
+          <!-- Slide 1 -->
+          <div class="home-slide">
+            <div class="img-container"> <img src="assets/img/mobile_signal_booster.png" alt="Hero Background 1" class="carousel-img" /> </div>
+            <div class="home__data">
+              <h1 class="home__name">
+                Mobile<br />
+                Signal Booster
+              </h1>
+              <h3 class="home__profession">Installation Service</h3>
+              <a href="files/product-mobile-signal-booster.html" class="button home__button">Read More</a>
+            </div>
+            <a href="#work" class="home__scroll home__scroll--hidden">
+              <div class="home__scroll-box"> <i class="ri-arrow-down-line"></i> </div>
+              <span class="home__scroll-text">Our Products</span>
+            </a>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="home-slide">
+            <div class="img-container"> <img src="assets/img/tech2.jpg" alt="Hero Background 2" class="carousel-img" /> </div>
+            <div class="home__data">
+              <h1 class="home__name"> Open <br /> Wan </h1>
+              <h3 class="home__profession">SD-WAN Solution</h3>
+              <a href="files/product-door-lock.html" class="button home__button"> Read More </a>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="home-slide">
+            <div class="img-container"> <img src="assets/img/tech3.jpg" alt="Hero Background 3" class="carousel-img" /> </div>
+            <div class="home__data">
+              <h1 class="home__name"> Biometric <br /> Attendance </h1>
+              <h3 class="home__profession">Device and Machine</h3>
+              <a href="files/product-biometric-attendance.html" class="button home__button"> Read More </a>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="home-slide">
+            <div class="img-container"> <img src="assets/img/tech4.jpg" alt="Hero Background 4" class="carousel-img" />
+            </div>
+            <div class="home__data">
+              <h1 class="home__name"> Face <br /> Recognition </h1>
+              <h3 class="home__profession">Biometric Attendance</h3>
+              <a href="files/product-face-recognition.html" class="button home__button"> Read More </a>
+            </div>
+          </div>
+
+          <!-- Slide 5-->
+          <div class="home-slide">
+            <div class="img-container"> <img src="assets/img/internet_lan.png" alt="Hero Background 5" class="carousel-img" /> </div>
+            <div class="home__data">
+              <h1 class="home__name"> Internet <br /> Leased </h1>
+              <h3 class="home__profession">Line Installation</h3>
+              <a href="files/product-internet-leased.html" class="button home__button"> Read More </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-pagination-lines">
+          <!-- Pagination lines will be generated by JavaScript -->
+        </div>
+      </div>
+
+    </div>
+    <a href="#work" class="button button--image-inspired">
+      <span class="button__icon-circle">
+          <i class="ri-arrow-down-s-line"></i>
+      </span>
+      <span class="button__text">Our Products</span>
+    </a>
+  </div>
+  
+    </section>
+
+
+
+
+
+
+    <!--==================== INFO ====================-->
+    <section class="info section" id="info">
+      <h2 class="section__title">About Us</h2>
+
+      <div class="info__container container grid">
+        <!-- about -->
+        <div class="about__pro-section sr-fade-in">
+          <h3 class="about__pro-title">We help businesses to adopt new technologies</h3>
+          <p class="about__pro-lead">
+            JAINIFY NET-TECH SOLUTIONS is one of the leading providers of next-gen integrated information technology products, services as well as solutions that help transform businesses with the latest technology models in the new digital era.<br>
+            <span class="about__pro-desc">The technology offerings by JAINIFY NET-TECH SOLUTIONS enable intelligence and business process automation using cutting-edge information technologies and techniques to provide the enterprise with greater agility and efficiency. Our solutions are focused on digital strategies that are custom fit as per the needs of our clients.</span>
+          </p>
+         
+          <div class="about__pro-solutions-grid">
+            <div class="about__pro-solution-card sr-fade-up">
+              <div class="about__pro-solution-icon"><i class="ri-wifi-line"></i></div>
+              <h4>Internet Connectivity</h4>
+              <ul>
+                <li>Broadband</li>
+                <li>FTTH Connectivity</li>
+                <li>4G / LTE Connectivity</li>
+              </ul>
+            </div>
+            <div class="about__pro-solution-card sr-fade-up" style="animation-delay:0.1s;">
+              <div class="about__pro-solution-icon"><i class="ri-building-line"></i></div>
+              <h4>Enterprise Connectivity</h4>
+              <ul>
+                <li>Internet Leased Line</li>
+                <li>PRI Connectivity</li>
+                <li>MPLS Connectivity</li>
+              </ul>
+            </div>
+            <div class="about__pro-solution-card sr-fade-up" style="animation-delay:0.2s;">
+              <div class="about__pro-solution-icon"><i class="ri-phone-line"></i></div>
+              <h4>Telephony</h4>
+              <ul>
+                <li>PBX Solution</li>
+                <li>VOIP Solution</li>
+                <li>WiFi Intercom Solution</li>
+              </ul>
+            </div>
+            <div class="about__pro-solution-card sr-fade-up" style="animation-delay:0.3s;">
+              <div class="about__pro-solution-icon"><i class="ri-wifi-fill"></i></div>
+              <h4>WiFi Infrastructure</h4>
+              <ul>
+                <li>WiFi Installation Service</li>
+                <li>Managed WiFi Solution</li>
+                <li>Enterprise WiFi Solution</li>
+              </ul>
+            </div>
+            <div class="about__pro-solution-card sr-fade-up" style="animation-delay:0.4s;">
+              <div class="about__pro-solution-icon"><i class="ri-server-line"></i></div>
+              <h4>Network Infrastructure</h4>
+              <ul>
+                <li>Structure Cabling</li>
+                <li>Office Networking</li>
+                <li>Network Support Services</li>
+              </ul>
+            </div>
+            <div class="about__pro-solution-card sr-fade-up" style="animation-delay:0.5s;">
+              <div class="about__pro-solution-icon"><i class="ri-shield-keyhole-line"></i></div>
+              <h4>Network Management</h4>
+              <ul>
+                <li>Firewall Solution</li>
+                <li>VPN Solution</li>
+                <li>SD-WAN Solution</li>
+              </ul>
+            </div>
+            <div class="about__pro-solution-card sr-fade-up" style="animation-delay:0.6s;">
+              <div class="about__pro-solution-icon"><i class="ri-wifi-off-line"></i></div>
+              <h4>WiFi Management</h4>
+              <ul>
+                <li>Guest WiFi Management</li>
+                <li>Public WiFi Solution</li>
+                <li>Advertising on WiFi</li>
+              </ul>
+            </div>
+            <div class="about__pro-solution-card sr-fade-up" style="animation-delay:0.7s;">
+              <div class="about__pro-solution-icon"><i class="ri-lock-2-line"></i></div>
+              <h4>Access Control</h4>
+              <ul>
+                <li>Time & Attendance</li>
+                <li>Access Control</li>
+                <li>Employee Management</li>
+              </ul>
+            </div>
+            <div class="about__pro-solution-card sr-fade-up" style="animation-delay:0.8s;">
+              <div class="about__pro-solution-icon"><i class="ri-camera-line"></i></div>
+              <h4>Video Surveillance</h4>
+              <ul>
+                <li>CCTV Surveillance</li>
+                <li>Video Management</li>
+                <li>Video Analytics</li>
+              </ul>
+            </div>
+            <div class="about__pro-solution-card sr-fade-up" style="animation-delay:0.9s;">
+              <div class="about__pro-solution-icon"><i class="ri-cloud-line"></i></div>
+              <h4>Cloud Services</h4>
+              <ul>
+                <li>Cloud Hosting</li>
+                <li>Shared Hosting</li>
+                <li>Software as a Service</li>
+              </ul>
+            </div>
+            <div class="about__pro-solution-card sr-fade-up" style="animation-delay:1.0s;">
+              <div class="about__pro-solution-icon"><i class="ri-home-gear-line"></i></div>
+              <h4>Automation</h4>
+              <ul>
+                <li>Home Automation</li>
+                <li>Office Automation</li>
+                <li>Network Automation</li>
+              </ul>
+            </div>
+            <div class="about__pro-solution-card sr-fade-up" style="animation-delay:1.1s;">
+              <div class="about__pro-solution-icon"><i class="ri-code-s-slash-line"></i></div>
+              <h4>Software Development</h4>
+              <ul>
+                <li>Website Development</li>
+                <li>ERP Solution</li>
+                <li>Customised Solutions</li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!--==================== OUR CORE VALUES ====================-->
+    <section class="core-values section" id="core-values">
+      <h2 class="section__title">Our Core Values</h2>
+      <div class="container">
+        <div class="core-values__grid">
+          <!-- Vision Card -->
+          <div class="core-values__card">
+            <div class="core-values__header">
+              <h3 class="core-values__title">Vision</h3>
+              <div class="core-values__icon">
+                <i class="ri-eye-line"></i>
+              </div>
+            </div>
+            <div class="core-values__line"></div>
+            <p class="core-values__desc">To enable technological convergence by delivering innovative, secure, and networking solutions.</p>
+            <div class="core-values__tags">
+              <span>Innovation</span>
+              <span>Future-Ready</span>
+            </div>
+          </div>
+
+          <!-- Mission Card -->
+          <div class="core-values__card">
+            <div class="core-values__header">
+              <h3 class="core-values__title">Mission</h3>
+              <div class="core-values__icon">
+                <i class="ri-flag-line"></i>
+              </div>
+            </div>
+            <div class="core-values__line"></div>
+            <p class="core-values__desc">To consistently evolve better ICT products & practices and help connect to digital consumers.</p>
+            <div class="core-values__tags">
+              <span>Excellence</span>
+              <span>Growth</span>
+            </div>
+          </div>
+
+          <!-- Our Team Card -->
+          <div class="core-values__card">
+            <div class="core-values__header">
+              <h3 class="core-values__title">Our Team</h3>
+              <div class="core-values__icon">
+                <i class="ri-team-line"></i>
+              </div>
+            </div>
+            <div class="core-values__line"></div>
+            <p class="core-values__desc">Our experienced team drives innovation and delivers tailored solutions for our clients.</p>
+            <div class="core-values__tags">
+              <span>Expertise</span>
+              <span>Dedication</span>
+            </div>
+          </div>
+
+          <!-- Responsibility Card -->
+          <div class="core-values__card">
+            <div class="core-values__header">
+              <h3 class="core-values__title">Responsibility</h3>
+              <div class="core-values__icon">
+                <i class="ri-shield-check-line"></i>
+              </div>
+            </div>
+            <div class="core-values__line"></div>
+            <p class="core-values__desc">We are committed to ethical practices, sustainability, and delivering value to our stakeholders.</p>
+            <div class="core-values__tags">
+              <span>Ethics</span>
+              <span>Sustainability</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== COMPANY PROFILE ====================-->
+    <section class="company-profile section" id="company-profile">
+      <h2 class="section__title">Company Profile</h2>
+      <div class="company-profile__container container">
+        <div class="company-profile__grid">
+          <!-- IT & Networking Card -->
+          <div class="company-profile__card">
+            <div class="company-profile__icon-wrapper">
+              <i class="ri-plug-line company-profile__icon"></i>
+            </div>
+            <div class="company-profile__content">
+              <h3 class="company-profile__title">IT & Networking</h3>
+              <p class="company-profile__description">
+                Comprehensive IT infrastructure and networking solutions for businesses of all sizes. Expert implementation and support.
+              </p>
+              <a href="#" class="company-profile__link">Learn More <i class="ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+
+          <!-- Enterprise WiFi Card -->
+          <div class="company-profile__card">
+            <div class="company-profile__icon-wrapper">
+              <i class="ri-wifi-line company-profile__icon"></i>
+            </div>
+            <div class="company-profile__content">
+              <h3 class="company-profile__title">Enterprise WiFi</h3>
+              <p class="company-profile__description">
+                High-performance wireless solutions with advanced security features and centralized management capabilities.
+              </p>
+              <a href="#" class="company-profile__link">Learn More <i class="ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+
+          <!-- E-Surveillance Card -->
+          <div class="company-profile__card">
+            <div class="company-profile__icon-wrapper">
+              <i class="ri-camera-lens-line company-profile__icon"></i>
+            </div>
+            <div class="company-profile__content">
+              <h3 class="company-profile__title">E-Surveillance</h3>
+              <p class="company-profile__description">
+                State-of-the-art surveillance systems with AI-powered analytics and remote monitoring capabilities.
+              </p>
+              <a href="#" class="company-profile__link">Learn More <i class="ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+
+          <!-- Automation Card -->
+          <div class="company-profile__card">
+            <div class="company-profile__icon-wrapper">
+              <i class="ri-lightbulb-flash-line company-profile__icon"></i>
+            </div>
+            <div class="company-profile__content">
+              <h3 class="company-profile__title">Automation</h3>
+              <p class="company-profile__description">
+                Smart automation solutions for homes and businesses, enhancing efficiency and control.
+              </p>
+              <a href="#" class="company-profile__link">Learn More <i class="ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- PDF Content: Our Solutions -->
+      <div class="company-profile__solutions container">
+        <h3 class="company-profile__subtitle">Our Solutions</h3>
+        <div class="company-profile__solutions-grid">
+          <div class="company-profile__solution-card">
+            <h4>IT Consulting</h4>
+            <p>We build a custom IT roadmap for your business, then meet with you on a regular basis to ensure your business running with up to date and secure technology.</p>
+          </div>
+          <div class="company-profile__solution-card">
+            <h4>System Integration</h4>
+            <p>We help you create a cohesive, smooth-functioning solution integrating multiple IT systems of different functionalities—giving you a streamlined and optimal functional workflow.</p>
+          </div>
+          <div class="company-profile__solution-card">
+            <h4>Tech Support</h4>
+            <p>We're just a phone call or email away. Our team can offer you a wide range of expertise. Our technicians assist your users via phone, remote session, or office visits.</p>
+          </div>
+          <div class="company-profile__solution-card">
+            <h4>Managed IT Services</h4>
+            <p>We provide proactive IT infrastructure monitoring, software configuration and updates, resource usage optimization, user support and overall improvement of your IT infrastructure.</p>
+          </div>
+          <div class="company-profile__solution-card">
+            <h4>Enterprise WiFi</h4>
+            <p>ENPL helps businesses solve their WiFi challenges by providing expert engineering services, innovative software, and turnkey WiFi subscriptions. We fix WiFi problems, enable WiFi to be smarter</p>
+          </div>
+          <div class="company-profile__solution-card">
+            <h4>Cloud Infrastructure</h4>
+            <p>Public Cloud, Private Cloud, Hybrid Cloud. Data Backup, Cloud Telephony, Website Hosting, Cloud-based Applications. Electrohelphs Networks has choices for every enterprise digital application.</p>
+          </div>
+          <div class="company-profile__solution-card">
+            <h4>Automation & IoT</h4>
+            <p>ENPL can integrate industrial automation and IoT applications into your business with ease. Our expertise in automation and integration is built to support your digital transformation.</p>
+          </div>
+          <div class="company-profile__solution-card">
+            <h4>Enterprise E-Surveillance</h4>
+            <p>ENPL provides Internet of Things (IoT) based e-surveillance of workplaces, point of sales, ATMs, factories, warehouses etc. to help reduce the occurrence of unwanted events.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== WORKS ====================-->
+    <section class="work section" id="work">
+      <h2 class="section__title">Our Products</h2>
+      <div class="work__container container grid">
+
+
+        <div>
+          <article class="work__card"> <a href="files/product-mobile-signal-booster.html" class="work__link">
+              <h2 class="work__title">WIFI Management Platform</h2>
+              <div class="work__description">
+                <p> Manage multiple WiFi hotspots from a single platform.Build any kind of WiFi whether you have
+                  free, social or charged, monetizing, engaging guests with video ads & marketing campaigns. </p>
+              </div>
+              <div class="work__img-container"> <img src="./assets/img/network-booster.jpg" alt="image"
+                  class="work__img" /> </div> <i class="ri-arrow-right-line"></i>
+            </a> </article>
+        </div>
+
+
+
+
+
+        <div>
+          <article class="work__card"> <a href="files/product-door-lock.html" class="work__link">
+              <h2 class="work__title">SD WAN Solution</h2>
+              <div class="work__description">
+                <p> OPEN-WAN is a next-gen connectivity solution for your business. It replaces the bulky &
+                  expensive firewall hardware and dependence on multiple ISPs with a single software solution
+                  with centralised management. </p>
+                <p> This lets you expand your business with near-zero limits, achieving seamless connectivity even in
+                  remote areas.
+                </p>
+              </div>
+              <div class="work__img-container"> <img src="./assets/img/door-lock.jpg" alt="image" class="work__img" />
+              </div> <i class="ri-arrow-right-line"></i>
+            </a> </article>
+        </div>
+
+
+
+
+
+
+        <div>
+          <article class="work__card"> <a href="files/product-biometric-attendance.html" class="work__link">
+              <h2 class="work__title">Biometric Attendance System</h2>
+              <div class="work__description">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste modi labore officiis ullam!
+                  Exercitationem labore animi vitae explicabo corporis eligendi. </p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem provident officia aliquam. </p>
+              </div>
+              <div class="work__img-container"> <img src="./assets/img/biometic-door.webp" alt="image"
+                  class="work__img" /> </div> <i class="ri-arrow-right-line"></i>
+            </a> </article>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <div>
+          <article class="work__card"> <a href="files/product-face-recognition.html" class="work__link">
+              <h2 class="work__title">Face Recognition System</h2>
+              <div class="work__description">
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, assumenda adipisci quisquam quam
+                  velit ex ratione consectetur quos numquam impedit? </p>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem quo quibusdam at dolorem. </p>
+              </div>
+              <div class="work__img-container"> <img src="./assets/img/face.jpg" alt="image" class="work__img" /> </div>
+              <i class="ri-arrow-right-line"></i>
+            </a> </article>
+        </div>
+
+
+
+
+        <div>
+          <article class="work__card"> <a href="files/product-internet-leased.html" class="work__link">
+              <h2 class="work__title">Internet Lease Line</h2>
+              <div class="work__description">
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, assumenda adipisci quisquam quam
+                  velit ex ratione consectetur quos numquam impedit? </p>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem quo quibusdam at dolorem. </p>
+              </div>
+              <div class="work__img-container"> <img src="./assets/img/internet.jpg" alt="image" class="work__img" />
+              </div> <i class="ri-arrow-right-line"></i>
+            </a> </article>
+        </div>
+
+
+
+
+      </div>
+    </section>
+
+    <!--==================== TESTIMONIALS ====================-->
+    <section class="testimonials section" id="testimonials">
+      <h2 class="section__title">Client Reviews</h2>
+      
+      <div class="testimonials__container container">
+        <!-- New simplified testimonials layout -->
+        <div class="testimonial-wrapper">
+          <!-- Current active testimonial -->
+          <div class="testimonial-active" id="testimonial-active">
+            <div class="testimonial__card">
+              <div class="testimonial__content">
+                <i class="ri-double-quotes-l testimonial__icon"></i>
+                <p class="testimonial__description">
+                  "GROMA TECH's mobile signal booster completely transformed our office connectivity. After installation, we went from constant dropped calls to perfect reception throughout our building. Great service and results!"
+                </p>
+              </div>
+              <div class="testimonial__user">
+                <!-- Testimonial image with fallback system -->
+                <div class="testimonial__img-container">
+                  <img src="assets/img/favicon.png" alt="testimonial image" class="testimonial__img" 
+                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                  <div class="testimonial__img-placeholder" style="display:none;">SJ</div>
+                </div>
+                <div class="testimonial__details">
+                  <h3 class="testimonial__name">Sarah Johnson</h3>
+                  <p class="testimonial__role">Marketing Director</p>
+                </div>
+                <div class="testimonial__rating">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Navigation controls -->
+          <div class="testimonial__controls">
+            <button class="testimonial__arrow testimonial__arrow-left" id="testimonial-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </button>
+            <div class="testimonial__pagination" id="testimonial-pagination"></div>
+            <button class="testimonial__arrow testimonial__arrow-right" id="testimonial-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </button>
+          </div>
+          
+          <!-- Hidden testimonials store (not displayed but used by JS) -->
+          <div class="testimonial-store" style="display: none;">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-data" data-id="1">
+              <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius laboriosam ut quas labore animi dolorem recusandae veniam illo reiciendis. Ab?Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet vero ullam corrupti quae architecto perferendis atque rerum illo nesciunt eaque.</div>
+              <div class="name">Sarah Johnson</div>
+              <div class="role">Marketing Director</div>
+              <div class="rating">5</div>
+            </div>
+            
+            <!-- Testimonial 2 -->
+            <div class="testimonial-data" data-id="2">
+              <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius laboriosam ut quas labore animi dolorem recusandae veniam illo reiciendis. Ab?Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet vero ullam corrupti quae architecto perferendis atque rerum illo nesciunt eaque.</div>
+              <div class="name">David Wilson</div>
+              <div class="role">Tech Consultant</div>
+              <div class="rating">4.5</div>
+            </div>
+            
+            <!-- Testimonial 3 -->
+            <div class="testimonial-data" data-id="3">
+              <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius laboriosam ut quas labore animi dolorem recusandae veniam illo reiciendis. Ab?Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet vero ullam corrupti quae architecto perferendis atque rerum illo nesciunt eaque.</div>
+              <div class="name">Emily Chen</div>
+              <div class="role">CEO, TechStart</div>
+              <div class="rating">5</div>
+            </div>
+            
+            <!-- Testimonial 4 -->
+            <div class="testimonial-data" data-id="4">
+              <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius laboriosam ut quas labore animi dolorem recusandae veniam illo reiciendis. Ab?Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet vero ullam corrupti quae architecto perferendis atque rerum illo nesciunt eaque.</div>
+              <div class="name">Michael Thompson</div>
+              <div class="role">Operations Manager</div>
+              <div class="rating">4.5</div>
+            </div>
+            
+            <!-- Testimonial 5 -->
+            <div class="testimonial-data" data-id="5">
+              <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius laboriosam ut quas labore animi dolorem recusandae veniam illo reiciendis. Ab?Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet vero ullam corrupti quae architecto perferendis atque rerum illo nesciunt eaque.</div>
+              <div class="name">Priya Sharma</div>
+              <div class="role">HR Director</div>
+              <div class="rating">5</div>
+            </div>
+            
+            <!-- Testimonial 6 -->
+            <div class="testimonial-data" data-id="6">
+              <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius laboriosam ut quas labore animi dolorem recusandae veniam illo reiciendis. Ab?Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet vero ullam corrupti quae architecto perferendis atque rerum illo nesciunt eaque.</div>
+              <div class="name">Dr. Rajesh Patel</div>
+              <div class="role">Medical Director</div>
+              <div class="rating">4.5</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== CONTACT ====================-->
+    <section class="contact section" id="contact">
+      <h2 class="section__title">CONTACT US</h2>
+
+      <div class="contact__container container">
+        <form action="" class="contact__form" id="contact-form">
+          <input type="text" name="user_name" placeholder="Enter Your Name" required class="contact__input" />
+          <input type="tel" name="user_mobile" placeholder="Enter Your Mobile Number" pattern="[0-9]{10}" required class="contact__input" />
+          <textarea name="user_message" placeholder="Enter Your Message" required class="contact__input contact__area"></textarea>
+          <button type="submit" class="contact__button">
+            <span>Send Message</span>
+          </button>
+          <p class="contact__message" id="contact-message"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__container grid">
+        <div class="footer__content">
+          <h3 class="footer__title">About Us</h3>
+          <p class="footer__description">
+            JAINIFY NET-TECH SOLUTIONS is one of the leading providers of next-gen integrated information technology products, services as well as solutions that help transform businesses with the latest technology models in the new digital era.
+            The technology offerings by JAINIFY NET-TECH SOLUTIONS enable intelligence and business process automation using cuttingedge information technologies and techniques to provide the enterprise with greater agility and efficiency
+            Our solutions are focused on digital strategies that are custom fit as per the needs of our clients.
+          </p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link">
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a href="#" class="footer__social-link">
+              <i class="ri-twitter-fill"></i>
+            </a>
+            <a href="#" class="footer__social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="#" class="footer__social-link">
+              <i class="ri-linkedin-fill"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer__content">
+          <h3 class="footer__title">Links</h3>
+          <ul class="footer__links">
+            <li><a href="index.html" class="footer__link">Home</a></li>
+            <li><a href="index.html#info" class="footer__link">About Us</a></li>
+            <li><a href="files/product-mobile-signal-booster.html" class="footer__link">Open Wi</a></li>
+            <li><a href="files/product-biometric-attendance.html" class="footer__link">Open Wan</a></li>
+            <li><a href="files/product-door-lock.html" class="footer__link">Door Lock Access System</a></li>
+            <li><a href="files/product-face-recognition.html" class="footer__link">Face Recognition</a></li>
+            <li><a href="files/product-internet-leased.html" class="footer__link">Internet Lease Line</a></li>
+            <li><a href="index.html#contact" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__content">
+          <h3 class="footer__title">Contact</h3>
+          <div class="footer__contact-info">
+            <p><i class="ri-mail-line"></i> kvpanchal1985@gmail.com</p>
+            <p><i class="ri-phone-line"></i> +91-9702927127</p>
+          </div>
+        </div>
+        
+        <div class="footer__content">
+          <h3 class="footer__title">Location</h3>
+          <div class="footer__locations">
+            <div class="footer__location">
+              <p><i class="ri-map-pin-line"></i> <strong>Head Office:</strong> 22, Panwala Niwas, Lane 1, Koldongri, Sahar Road, Andheri East, Mumbai 400069</p>
+            </div>
+            <div class="footer__location">
+              <p><i class="ri-map-pin-line"></i> <strong>Mumbai Branch:</strong> 22, Panwala Niwas, Lane 1, Koldongri, Sahar Road, Andheri East, Mumbai 400069</p>
+            </div>
+            <div class="footer__location">
+              <p><i class="ri-map-pin-line"></i> <strong>Delhi Branch:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, earum?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <span class="footer__copy"> © 2024 Jainify Net-Tech Solutions, All Rights Reserved </span>
+    </div>
+  </footer>
+
+  <!--========== SCROLL UP ==========-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+  <!--=============== SCROLLREVEAL ===============-->
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+
+  <!--=============== EMAIL JS ===============-->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+
+
+
+</body>
+
+</html>
